@@ -9,14 +9,19 @@ namespace Loops
         {
            
            
-            int A = Convert.ToInt32(Console.ReadLine());
-            int B = Convert.ToInt32(Console.ReadLine());
+            //int A = Convert.ToInt32(Console.ReadLine());
+           // int B = Convert.ToInt32(Console.ReadLine());
+
+            //string N = Console.ReadLine();
 
             //int B = Convert.ToInt32(Console.ReadLine());
 
-            int result = Calculator.Fibonacci(7);
+            bool result = Calculator.CompareDigits("13447", "86856");
 
-            Console.WriteLine(result);  
+            Console.WriteLine(result);
+
+
+              
         }
     }
 }
